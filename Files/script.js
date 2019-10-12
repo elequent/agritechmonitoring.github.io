@@ -263,7 +263,10 @@
                                 },  
                                 chart: {
                                     height: (16 / 16 * 100) + '%' // 16:9 ratio
-                                },                                                        
+                                },
+                                scrollbar: {
+                                    enabled: false
+                                },
                                 yAxis: {
                                     labels: {
                                         align: 'left',
