@@ -219,18 +219,6 @@
                             to: band3
                         }]*/                                     
                     },                                     
-                    legend: {
-                        enabled: true,
-                        align: 'right',
-                        verticalAlign: 'top',
-                        layout: 'vertical',
-                        x: 0,
-                        y: 100,
-                        itemStyle: {
-                            color: '#000000',
-                            fontWeight: 'bold',
-                        }
-                    },  
                     series: d,
                     exporting: {
                         
@@ -250,11 +238,6 @@
                                 maxWidth: 500
                             },
                             chartOptions: {
-                                legend: {
-                                    align: 'center',
-                                    verticalAlign: 'bottom',
-                                    layout: 'horizontal'
-                                },
                                 rangeSelector : {
                                 inputEnabled:false
                                 },      
